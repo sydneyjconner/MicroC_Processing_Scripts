@@ -1,0 +1,15 @@
+🔹 Running full pipeline with cleanup...
+🔹 Running QC script...
+Total Read Pairs                              412,470,902  100%
+Unmapped Read Pairs                           30,790,211   7.46%
+Mapped Read Pairs                             327,388,198  79.37%
+PCR Dup Read Pairs                            108,799,972  26.38%
+No-Dup Read Pairs                             218,588,226  52.99%
+No-Dup Cis Read Pairs                         175,922,126  80.48%
+No-Dup Trans Read Pairs                       42,666,100   19.52%
+No-Dup Valid Read Pairs (cis >= 1kb + trans)  184,413,365  84.37%
+No-Dup Cis Read Pairs < 1kb                   34,174,861   15.63%
+No-Dup Cis Read Pairs >= 1kb                  141,747,265  64.85%
+No-Dup Cis Read Pairs >= 10kb                 114,590,790  52.42%
+Results have been saved to /gpfs/commons/home/sliu/ALS_MicroC_analyses/output/02_quality_check_tables/Sample_TALSCU38C6/Sample_TALSCU38C6_output.csv
+✅ Finished processing Sample_TALSCU38C6

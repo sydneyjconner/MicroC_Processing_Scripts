@@ -1,0 +1,3 @@
+ls: cannot access '/gpfs/commons/home/sliu/MicroC_QC//gpfs/commons/home/sconner/ALS_MicroC_Data/Project_GUR_20240_B01_NAN_Lane.2025-08-11/Sample_*': No such file or directory
+gzip: /fastq/*_L001_001.R1.fastq.gz: No such file or directory
+gzip: /fastq/*_L002_001.R1.fastq.gz: No such file or directory

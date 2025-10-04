@@ -1,0 +1,78 @@
+HTSlib 1.21 loaded from /nfs/sw/easybuild/software/htslib/1.21
+Samtools 1.21 loaded from /nfs/sw/easybuild/software/samtools/1.21
+
+The following have been reloaded with a version change:
+  1) GCCcore/12.3.0 => GCCcore/13.3.0
+  2) zlib/1.2.13-GCCcore-12.3.0 => zlib/1.3.1-GCCcore-13.3.0
+
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 1589404 sequences (240000004 bp)...
+[M::process] read 1589404 sequences (240000004 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (17627, 221341, 17302, 17857)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (988, 2576, 5033)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 13123)
+[M::mem_pestat] mean and std.dev: (3265.50, 2680.27)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 17168)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (153, 209, 340)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 714)
+[M::mem_pestat] mean and std.dev: (236.91, 125.79)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 901)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (871, 2425, 4923)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 13027)
+[M::mem_pestat] mean and std.dev: (3174.65, 2726.49)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 17079)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (1013, 2541, 5074)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 13196)
+[M::mem_pestat] mean and std.dev: (3279.88, 2680.06)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 17257)
+[M::mem_process_seqs] Processed 1589404 reads in 629.467 CPU sec, 26.751 real sec
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (17903, 222554, 17595, 18296)
+[M::mem_pestat] analyzing insert size distribution for orientation FF...
+[M::mem_pestat] (25, 50, 75) percentile: (998, 2545, 5030)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 13094)
+[M::mem_pestat] mean and std.dev: (3266.88, 2675.50)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 17126)
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (153, 210, 343)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 723)
+[M::mem_pestat] mean and std.dev: (238.46, 127.75)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 913)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (891, 2470, 5035)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 13323)
+[M::mem_pestat] mean and std.dev: (3211.38, 2722.00)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 17467)
+[M::mem_pestat] analyzing insert size distribution for orientation RR...
+[M::mem_pestat] (25, 50, 75) percentile: (1017, 2500, 5021)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 13029)
+[M::mem_pestat] mean and std.dev: (3264.60, 2684.72)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 17033)
+[M::mem_process_seqs] Processed 1589404 reads in 587.157 CPU sec, 24.774 real sec
+[M::process] read 1589404 sequences (240000004 bp)...
+sort: cannot create temporary file in '/var/spool/slurmd/job5700406/tmp': No such file or directory
+WARNING:py.warnings:/nfs/sw/easybuild/software/Python/3.12.3-GCCcore-13.3.0/lib/python3.12/site-packages/pairtools/lib/stats.py:410: RuntimeWarning: invalid value encountered in divide
+  np.abs(dist_freqs_by_strands[strands] - avg_freq_all_strands)
+
+WARNING:py.warnings:/nfs/sw/easybuild/software/Python/3.12.3-GCCcore-13.3.0/lib/python3.12/site-packages/pairtools/lib/stats.py:466: RuntimeWarning: invalid value encountered in scalar divide
+  strands: n_cis_pairs / norm_factor
+
+WARNING:py.warnings:/nfs/sw/easybuild/software/Python/3.12.3-GCCcore-13.3.0/lib/python3.12/site-packages/pairtools/lib/stats.py:474: RuntimeWarning: invalid value encountered in scalar divide
+  sum(list(n_cis_pairs_above_convergence_dist.values())) / norm_factor )
+
+WARNING:pairtools:Empty of fully duplicated library, can't estimate complexity
+WARNING:py.warnings:/nfs/sw/easybuild/software/Python/3.12.3-GCCcore-13.3.0/lib/python3.12/site-packages/pairtools/lib/stats.py:410: RuntimeWarning: invalid value encountered in divide
+  np.abs(dist_freqs_by_strands[strands] - avg_freq_all_strands)
+
+WARNING:py.warnings:/nfs/sw/easybuild/software/Python/3.12.3-GCCcore-13.3.0/lib/python3.12/site-packages/pairtools/lib/stats.py:466: RuntimeWarning: invalid value encountered in scalar divide
+  strands: n_cis_pairs / norm_factor
+
+WARNING:py.warnings:/nfs/sw/easybuild/software/Python/3.12.3-GCCcore-13.3.0/lib/python3.12/site-packages/pairtools/lib/stats.py:474: RuntimeWarning: invalid value encountered in scalar divide
+  sum(list(n_cis_pairs_above_convergence_dist.values())) / norm_factor )
+
+WARNING:pairtools:Empty of fully duplicated library, can't estimate complexity
+[W::sam_hdr_link_pg] PG line with ID:pairtools_dedup has a PP link to itself
+[W::sam_hdr_link_pg] PG line with ID:pairtools_dedup has a PP link to itself
