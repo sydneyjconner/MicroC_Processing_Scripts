@@ -15,7 +15,7 @@ module load bcl2fastq2
 # Define paths
 REF_GENOME="/gpfs/commons/home/cangel/g2lab/resources/GRCh38/Homo_sapiens/NCBI/GRCh38/Sequence/BWAIndex/genome.fa"
 CHROM_SIZES="/gpfs/commons/home/sliu/resources/hg38.genome"
-INPUT_DIR="/gpfs/commons/groups/gursoy_lab/sconner/ALS_DeepSeq/output/01_combined_lanes_data"
+INPUT_DIR="/gpfs/commons/groups/gursoy_lab/sconner/ALS_DeepSeq/output/01_combined_lanes_data/ALS5"
 OUTPUT_DIR="/gpfs/commons/groups/gursoy_lab/sconner/ALS_DeepSeq/output/02_quality_check_tables"
 
 # Get sample directories

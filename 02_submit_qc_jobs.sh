@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the sample input directory
-INPUT_DIR="/gpfs/commons/groups/gursoy_lab/sconner/ALS_DeepSeq/output/01_combined_lanes_data"
+INPUT_DIR="/gpfs/commons/groups/gursoy_lab/sconner/ALS_DeepSeq/output/01_combined_lanes_data/ALS5"
 
 # Count the number of Sample_* directories
 NUM_SAMPLES=$(ls -d "$INPUT_DIR"/Sample_* 2>/dev/null | wc -l)
