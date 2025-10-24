@@ -2,26 +2,11 @@
 # .txt files for each chromosome
 
 #load packages
-suppressPackageStartupMessages({
-  library(strawr)
-})
+library(strawr)
 
-# Parse arguments
-args <- commandArgs(trailingOnly = TRUE)
-if (length(args) != 2) {
-  stop("Usage: Rscript hic_compare_all_chromosomes.R <Sample1> <Resolution>")
-}
-sample1 <- args[1]
-resolution <- as.integer(args[2])
+file_hic = file.path('/gpfs/commons/groups/gursoy_lab/sconner/ALS_DeepSeq/output/Tests/als_hic/Sample_GWF2162/Sample_GWF2162.hic')
+
+mat <- straw("NONE", file_hic, "chr1", "chr1", "BP", 100000)
+write.table(mat, "/gpfs/commons/groups/gursoy_lab/sconner/ALS_DeepSeq/output/Tests/als_hic/Sample_GWF2162/Sample_GWF216.NONE.chr1.100000.txt")
 
 
-
-
-chromosomes <- c(paste0("chr", 1:22), "chrX", "chrY")
-
-hic.list <- lapply(chromosomes, function(chr) {
-  message("Processing: ", chr)
-  mat1 <- straw("NONE", sample1, chr, chr, "BP", resolution)  
-  create.hic.table(mat1, mat2, chr = chr, exclude.regions = exclude, exclude.overlap = 0.2)
-})
-names(hic.list) <- chromosomes
